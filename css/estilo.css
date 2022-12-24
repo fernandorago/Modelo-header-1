@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: space-around;
+   width: 100%;
+   margin-left: 10%;
+   padding: 1%;
+   
+}
+.logo{
+flex-grow: 1;
+color: rgb(90, 90, 194);
+font-size: 20px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo i{
+    background-color: blue;
+    color: white;
+    border-radius: 40%;
+}
+
+.home{
+display: inline-block;
+flex-grow: 1;
+justify-content: space-around;
+}
+.home a{
+    margin: 10px;
+    color: rgb(62, 59, 59);
+    font-size:medium;
+    font-weight: bold;
+}
+
+.registro{
+flex-grow: 1; 
+}
+.registrarse{
+    margin-right: 15px;
+    text-decoration: none;
+    color:  rgb(62, 59, 59);
+    font-weight: bold;
+}
+button{
+    border-style: none;
+    border-radius: 10%;
+    border-color:rgb(76, 76, 231);
+    height: 30px;
+    width:90px;
+    background-color: rgb(111, 111, 255);
+    color: white;
+}
+.registro1{
+    text-decoration: none;
+    color: white;
+}
+.celeste{
+    height: 70px;
+    background-color: rgb(176, 204, 255);
+}
+
