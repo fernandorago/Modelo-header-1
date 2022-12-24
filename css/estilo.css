@@ -29,15 +29,19 @@ font-size: 20px;
 }
 
 .home{
-display: inline-block;
-flex-grow: 1;
-justify-content: space-around;
+    
+    display: inline-block;
+    flex-grow: 1;
+    justify-content: space-around;
+    padding-top: 7px;
 }
 .home a{
     margin: 10px;
     color: rgb(62, 59, 59);
     font-size:medium;
     font-weight: bold;
+    text-decoration: none;
+
 }
 
 .registro{
@@ -51,19 +55,30 @@ flex-grow: 1;
 }
 button{
     border-style: none;
-    border-radius: 10%;
+    border-radius: 20%;
     border-color:rgb(76, 76, 231);
-    height: 30px;
-    width:90px;
+    height: 40px;
+    width:110px;
     background-color: rgb(111, 111, 255);
     color: white;
+    padding-bottom: 5px;
 }
 .registro1{
     text-decoration: none;
     color: white;
-}
+    border-radius: 10%;
+    padding:2%;
+}  
 .celeste{
-    height: 70px;
+    height: 30px;
     background-color: rgb(176, 204, 255);
 }
+/* @media(max-with:900px) {
+    div,nav {
+        
+    flex-direction: column;   }
+    
+    header {
+        justify-content: flex-start;}
+    } */
 
