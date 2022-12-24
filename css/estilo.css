@@ -34,6 +34,8 @@ font-size: 20px;
     flex-grow: 1;
     justify-content: space-around;
     padding-top: 7px;
+    text-transform: uppercase;
+    
 }
 .home a{
     margin: 10px;
@@ -70,7 +72,7 @@ button{
     padding:2%;
 }  
 .celeste{
-    height: 30px;
+    height: 50px;
     background-color: rgb(176, 204, 255);
 }
 /* @media(max-with:900px) {
